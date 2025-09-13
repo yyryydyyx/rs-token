@@ -31,7 +31,7 @@ type User struct {
 
 func main() {
     /**
-    注意事项: 1
+    注意事项:
     1、token存活时间 = 超时时间 + 缓存刷新时间
     2、处理携带token的请求时当前时间大于超时时间并小于缓存刷新时间时token将自动刷新即重置token存活时间
     3、每创建一个gfToken实例时CacheKey必须不相同
