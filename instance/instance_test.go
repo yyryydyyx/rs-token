@@ -7,8 +7,9 @@
 package instance_test
 
 import (
-	"rs-token/instance"
 	"testing"
+
+	"github.com/yyryydyyx/rs-token/instance"
 
 	"github.com/gogf/gf/v2/test/gtest"
 )

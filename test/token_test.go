@@ -10,8 +10,9 @@ package test
 import (
 	"testing"
 
-	"rs-token/adapter"
-	"rs-token/gftoken"
+	"github.com/yyryydyyx/rs-token/gftoken"
+
+	"github.com/yyryydyyx/rs-token/adapter"
 
 	"github.com/gogf/gf/v2/crypto/gmd5"
 	"github.com/gogf/gf/v2/database/gredis"

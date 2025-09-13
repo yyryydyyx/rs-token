@@ -1,4 +1,4 @@
-module rs-token
+module github.com/yyryydyyx/rs-token
 
 go 1.23.0
 

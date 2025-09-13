@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"rs-token/instance"
+	"github.com/yyryydyyx/rs-token/instance"
 
 	badger "github.com/dgraph-io/badger/v4"
 	"github.com/gogf/gf/v2/container/gmap"
