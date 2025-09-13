@@ -1,4 +1,4 @@
-module github.com/tiger1103/gfast-token
+module rs-token
 
 go 1.23.0
 

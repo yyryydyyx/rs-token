@@ -7,7 +7,7 @@
 package instance_test
 
 import (
-	"github.com/tiger1103/gfast-token/instance"
+	"rs-token/instance"
 	"testing"
 
 	"github.com/gogf/gf/v2/test/gtest"

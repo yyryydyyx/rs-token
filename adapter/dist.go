@@ -11,6 +11,12 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"reflect"
+	"sync"
+	"time"
+
+	"rs-token/instance"
+
 	badger "github.com/dgraph-io/badger/v4"
 	"github.com/gogf/gf/v2/container/gmap"
 	"github.com/gogf/gf/v2/container/gvar"
@@ -18,10 +24,6 @@ import (
 	"github.com/gogf/gf/v2/os/gcache"
 	"github.com/gogf/gf/v2/os/gtime"
 	"github.com/gogf/gf/v2/util/gconv"
-	"github.com/tiger1103/gfast-token/instance"
-	"reflect"
-	"sync"
-	"time"
 )
 
 const (

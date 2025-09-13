@@ -8,14 +8,16 @@
 package test
 
 import (
+	"testing"
+
+	"rs-token/adapter"
+	"rs-token/gftoken"
+
 	"github.com/gogf/gf/v2/crypto/gmd5"
 	"github.com/gogf/gf/v2/database/gredis"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
 	"github.com/gogf/gf/v2/util/grand"
-	"github.com/tiger1103/gfast-token/adapter"
-	"github.com/tiger1103/gfast-token/gftoken"
-	"testing"
 )
 
 func TestToken(t *testing.T) {
