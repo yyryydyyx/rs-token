@@ -1,10 +1,3 @@
-/*
-* @desc:磁盘缓存
-* @company:云南奇讯科技有限公司
-* @Author: yixiaohu<yxh669@qq.com>
-* @Date:   2024/1/16 9:07
- */
-
 package adapter
 
 import (
